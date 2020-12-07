@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApplicationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-01T09:46:11" hostname="DESKTOP-SN5P179" time="2.348">
+  <properties/>
+  <testcase name="testAuth" classname="ApplicationTest" time="1.758"/>
+  <testcase name="testUploadAndPostCreation" classname="ApplicationTest" time="0.322"/>
+  <testcase name="testExpire" classname="ApplicationTest" time="0.183"/>
+  <testcase name="testUnauthorized" classname="ApplicationTest" time="0.082"/>
+  <system-out><![CDATA[2020-12-01 12:46:11.685 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+C:\Users\Kvait\AppData\Local\Temp\test4370005809422877027
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.-xXA0iKB4mVNvWLYFtt2xNiYkFpObF54J9lj2RwduAI"
+}
+2020-12-01 12:46:12.630 [Test worker @coroutine#2] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['token']
+2020-12-01 12:46:13.198 [Test worker @coroutine#2] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['username']
+2020-12-01 12:46:13.206 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+C:\Users\Kvait\AppData\Local\Temp\test421389197766764278
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.-xXA0iKB4mVNvWLYFtt2xNiYkFpObF54J9lj2RwduAI"
+}
+2020-12-01 12:46:13.363 [Test worker] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['token']
+2020-12-01 12:46:13.429 [Test worker] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['id']
+{
+  "id": 1,
+  "source": null,
+  "ownerId": 1,
+  "ownerName": "vasya",
+  "created": 1606815973,
+  "content": "Post with image",
+  "likes": 0,
+  "likedByMe": false,
+  "reposts": 0,
+  "repostedByMe": false,
+  "link": null,
+  "type": "POST",
+  "attachment": {
+    "id": "329cca99-377b-4731-b1d3-7c7b6c4b00e0.png",
+    "mediaType": "IMAGE"
+  }
+}
+2020-12-01 12:46:13.524 [Test worker] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['attachment']['id']
+2020-12-01 12:46:13.550 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+C:\Users\Kvait\AppData\Local\Temp\test9978497699075475077
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.-xXA0iKB4mVNvWLYFtt2xNiYkFpObF54J9lj2RwduAI"
+}
+2020-12-01 12:46:13.708 [Test worker @coroutine#33] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['token']
+2020-12-01 12:46:13.709 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+C:\Users\Kvait\AppData\Local\Temp\test3770656280929343638
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
